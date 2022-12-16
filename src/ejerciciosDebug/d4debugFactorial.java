@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class d4debugFactorial {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num, num2, fact;
 		Scanner sc = new Scanner(System.in);
@@ -16,12 +16,13 @@ public class d4debugFactorial {
 		num = sc.nextInt();
 		fact = num;
 		num2 = num;
-		while (num2>2) {
+		while (num2<=2) {
 			num2 = num2 -1;
-			fact = num * num2;			
+			fact = fact * num2;
 		}
 		System.out.print("El factorial de "+num+" es "+fact);
 
 	}
 
 }
+

@@ -22,8 +22,9 @@ public class d2debugWhile2 {
 		
 		System.out.print("Imprimo los numeros");
 		
-		while (i<num) {
+		while (i<=num) {
 			System.out.println("Numero "+i);
+                        i++;
 		}
 
 	}

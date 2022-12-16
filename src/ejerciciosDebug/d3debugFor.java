@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class d3debugFor {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num =0;
 	
@@ -22,9 +22,9 @@ public class d3debugFor {
 		
 		System.out.println("Imprimo los numeros");
 		
-		for (int i = 0; i<num; i++) {
+		for (int i = 1; i<=num; i++) {
 			System.out.println("Numero "+i);
-			i++;
+
 		}
 
 
