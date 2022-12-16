@@ -1,4 +1,4 @@
-package ejerciciosDebug;
+
 
 /*
  * Mediante puntos de interrupcion, inspeccion y modificacion de variables durante la ejecucion 
@@ -11,6 +11,7 @@ package ejerciciosDebug;
  * y como has creado el punto de interrupcion condicional.
  * 
  */
+package ejerciciosDebug;
 public class d6debugFact {
    // Imprime factorial de n
    public static void main(String[] args) {
